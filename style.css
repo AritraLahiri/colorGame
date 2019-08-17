@@ -1,0 +1,73 @@
+.square{
+  width: 30%;
+  background-color: green;
+  padding-bottom:30%;
+  float: left;
+  margin: 1.66%;
+  border-radius:50%;
+  transition: background 0.6s;
+  -webkit-transition:0.6s;
+  -moz-transition:0.  6s;
+}
+#container{
+  margin: 27px auto;
+  max-width: 600px;
+}
+h1{
+  text-align: center;
+  color: white;
+  margin:0;
+  background-color:green;
+  padding: 14px 0;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;  
+  font-weight: normal;
+  text-transform: uppercase;
+  background-color: #232323
+}
+#luck{
+  background-color: white;  
+  text-align: center;
+  display: inline-block;
+  width: 10%;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  font-size: inherit;
+
+}
+#bar{
+  height: 30px;
+  background-color: white;
+  text-align: center
+}
+.selected{
+  color: white;
+  background-color: green;
+  
+}
+#rgbval{
+  font-size: 200%;
+  line-height: 1.1;
+}
+button{
+  border: none;
+  background-color: none;
+  height: 100%;
+  font-size: inherit;
+  transition:all 0.3s;
+  color:green;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  outline: none;
+
+
+}
+button:hover{
+  color: white;
+  background-color: green;
+
+  
+}
